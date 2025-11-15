@@ -1,0 +1,16 @@
+{
+  "name": "gxd-coder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "codex-wrap": "bin/codex-wrap.js"
+  },
+  "scripts": {
+    "start": "node bin/codex-wrap.js exec",
+    "resume": "node bin/codex-wrap.js resume"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
